@@ -1,6 +1,6 @@
 import React from "react";
 
-function ratingMovie({ rate, ChangeRating }) {
+function ratingMovie({ rate,ChangeRating }) {
   let starts = [];
   for (let i = 0; i < 5; i++) {
     if (i < rate) {
